@@ -4,19 +4,19 @@ Step 1
 --- 
 Step 2
 
-| Type   | NAMe   | Values | example                   | Meaning |
-| ------ | ------ | ------ | ------------------------- | ------- |
-| Input  | DRS    | Bool   | In seat = `High` = on     |         |
-| Input  | PSS    | Bool   | In seat = `High` = on     |         |
-| Input  | DRB    | Bool   | No connected  =`Low` = on |         |
-| Input  | PSB    | Bool   | No connected  =`Low `= on |         |
-| Input  | Ign    | Bool   | Ign on = `High` = on      |         |
-| Output | Altert | Bool   | Alert = `Low` = on        |         |
+| Type   | NAMe   | Values | example                   |
+| ------ | ------ | ------ | ------------------------- |
+| Input  | DRS    | Bool   | In seat = `High` = on     |
+| Input  | PSS    | Bool   | In seat = `High` = on     |
+| Input  | DRB    | Bool   | No connected  =`Low` = on |
+| Input  | PSB    | Bool   | No connected  =`Low `= on |
+| Input  | IGN    | Bool   | Ign on = `High` = on      |
+| Output | Altert | Bool   | Alert = `Low` = on        |
 
 --- 
 **Step 3** 
-
-*3.1*
+3.1
+```
 Start
 If engine is running
 Check
@@ -26,6 +26,8 @@ Otherwise
 Dont turn on alarm
 If engine not running do nothing
 End
+```
+
 
 --- 
 **3.2**
@@ -88,17 +90,16 @@ Removed all row were IGN is 0 to simplify logic table as IGN 0 will always be no
 --- 
 **3.3**
 
-LaTaX Math
+~Out = IGN * (DRS AND ~DRB + PSS AND ~PSB)
+
+LaTaX Math Syntax (*Works inside Obsidian not correct on github*)
 
 $Out = \overline{ IGN \cdot ( DRS \cdot \overline{DRB} + PSS \cdot \overline{PSB} ) }$
-
-
-
-~Out = IGN * (DRS AND ~DRB + PSS AND ~PSB)
 
 --- 
 
 **3.4**
+```
 *PseudoCode* 
 
 Read Sensors
@@ -110,6 +111,8 @@ Check:
 		Then Alarm = on(LOW)
 If not 
 	The Alarm = off (HIGH)
+	
+```
 
 ---
 3.4 
@@ -125,7 +128,7 @@ Logic Circit
 --- 
 
 4.2
-Python  My Python
+Python  **My Python**
 ```
 	#Week 3 Challange
 
@@ -150,7 +153,7 @@ else:
 	print(f"Thank you for being safe")
 ```
 
-4.3 AI Python
+4.3 **AI Python**
 
 ```
 def check_seatbelt_alarm(DRS, DRB, PSS, PSB, IGN):

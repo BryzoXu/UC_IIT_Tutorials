@@ -1,0 +1,173 @@
+{
+  "main": {
+    "id": "ad5a37f4c4c644ef",
+    "type": "split",
+    "children": [
+      {
+        "id": "d4a229a22767743d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3efd9208878809dc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "week3_Challange/Week 3 Challange Documenations.md.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Week 3 Challange Documenations.md"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "659d5fbe6155a680",
+    "type": "split",
+    "children": [
+      {
+        "id": "51531cc93455abca",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ad55a9888eda2ce2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "76d2b9c3bdbc18a4",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "db0cc8d864cb0124",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "a4709083cab0ca84",
+    "type": "split",
+    "children": [
+      {
+        "id": "2c63d6f5cb7fc86e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2a1d2ad4caf42bf8",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "week3_Challange/Week 3 Challange Documenations.md.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Week 3 Challange Documenations.md"
+            }
+          },
+          {
+            "id": "32213e6c848b2a7b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "week3_Challange/Week 3 Challange Documenations.md.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Week 3 Challange Documenations.md"
+            }
+          },
+          {
+            "id": "85b6f1e536941516",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "d04dcd755072e354",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "week3_Challange/Week 3 Challange Documenations.md.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Week 3 Challange Documenations.md"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "3efd9208878809dc",
+  "lastOpenFiles": []
+}
