@@ -1,4 +1,6 @@
-Step 1
+Step 1 Define the Problem 
+
+Create a system to notify the driver if either the passenger or driver seat belt isn't connected, only when the car is turned on. The system needs to use active low for seat belt and active high for seat and ignition sensor. The alarm is triggered on active low 
 
 
 --- 
@@ -20,7 +22,7 @@ Step 2
 Start
 If engine is running
 Check
-Does DRS equal High and DRB equal Low or  Does PSS  equal High and PSB equal Low
+Does DRS equal High and DRB equal Low or Does PSS equal High and PSB equal Low
 If Yes Turn on alarm
 Otherwise 
 Dont turn on alarm
@@ -105,9 +107,7 @@ $Out = \overline{ IGN \cdot ( DRS \cdot \overline{DRB} + PSS \cdot \overline{PSB
 Read Sensors
 If IGN is ON(HIGH)
 Check:
-	If DRS is ON(HIGH) & DRB is ON(LOW)
-		Then Alarm = on(LOW)
-	If PSS is ON(HIGH) & PSB is ON(LOW)
+	If DRS is ON(HIGH) & DRB is ON(LOW) or PSS is ON(HIGH) & PSB is ON(LOW)
 		Then Alarm = on(LOW)
 If not 
 	The Alarm = off (HIGH)
