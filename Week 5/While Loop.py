@@ -1,0 +1,1 @@
+while total < 3
