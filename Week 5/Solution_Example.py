@@ -12,8 +12,8 @@ for title, price in movies.items():
     print(f"{title:14s} ${price:.2f}")
 
 while True:
-    title = input("Movie title (or 'done'): ")
-    if title.lower() == "done":
+    title = input("Movie title (or 'done'): ").strip()
+    if title.lower().strip() == "done":
         break
     if title not in movies:
         print("Unknown title. Available:", ", ".join(movies.keys()))
