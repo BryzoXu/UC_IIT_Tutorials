@@ -25,12 +25,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Refined understanding.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Refined understanding"
+              "title": "README"
             }
           }
         ],
@@ -107,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Refined understanding.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Refined understanding"
+              "title": "Backlinks for README"
             }
           },
           {
@@ -172,6 +172,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -182,6 +183,7 @@
   },
   "active": "6c60f64947eaf2cf",
   "lastOpenFiles": [
+    "Week 2/IIT Tut1_1.3.png",
     "NetAcad_Python/Calender.py",
     "NetAcad_Python/Income tax.py",
     "NetAcad_Python/Income tax",
